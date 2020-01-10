@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="com.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="com.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="form">
+      <h1>Register</h1>
+      <div class="input-box">
+        <i class="fa fa-user"></i>
+        <input type="text" name="name" value="" placeholder="Username">
+      </div>
+      <div class="input-box">
+          <i class="fa fa-envelope"></i>
+        <input type="text" name="email" value="" placeholder="Email">
+      </div>
+      <div class="input-box">
+        <i class="fa fa-compress"></i>
+        <input type="text" name="contact" value="" placeholder="contact">
+      </div>
+      <div class="input-box">
+          <i class="fa fa-key"></i>
+        <input type="password" name="password" value="" placeholder="password" id="pass">
+        <span class="eye" onclick="myfunction()">
+            <i id="hide1" class="fa fa-eye"></i>
+            <i id="hide2" class="fa fa-eye-slash"></i>
+        </span>
+      </div>
+      <div class="input-box">
+          <i class="fa fa-key"></i>
+        <input type="password" name="confirm" placeholder="confirm password" id="pass2">
+        <span class="eye" onclick="myfunction1()">
+            <i id="hide3" class="fa fa-eye"></i>
+            <i id="hide4" class="fa fa-eye-slash"></i>
+        </span>
+      </div>
+      <button type="submit" name="button" class="login-but"><a href="login.html">Submit</a></button>
+    </div>
+  </body>
+</html>
